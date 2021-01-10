@@ -1,4 +1,4 @@
-export function Privacity() {
+export function PolicyPrivacity() {
     return (
           
        <div>
