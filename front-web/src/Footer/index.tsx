@@ -16,6 +16,9 @@ function Footer() {
                 <a href="http://" target="new">
                     <Instagram />
                 </a>
+                <a href="https://fabricioferreirasds2.netlify.app/privacity" target="new">
+                    Privacity
+                </a>
             </div>
         </footer>
     )
