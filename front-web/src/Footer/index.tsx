@@ -2,6 +2,7 @@ import './styles.css';
 import { ReactComponent as Youtube } from './youtube.svg'
 import { ReactComponent as Instagram } from './instagram.svg'
 import { ReactComponent as Linkedin } from './linkedin.svg'
+import { Link } from 'react-router-dom';
 function Footer() {
     return (
         <footer className="main-footer">
@@ -16,9 +17,10 @@ function Footer() {
                 <a href="http://" target="new">
                     <Instagram />
                 </a>
-                <a href="https://fabricioferreirasds2.netlify.app/privacity" target="new">
-                    Privacity
-                </a>
+                
+                <Link to="/privacity">
+                Privacity
+                        </Link>
             </div>
         </footer>
     )
